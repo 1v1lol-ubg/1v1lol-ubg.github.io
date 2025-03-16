@@ -15,7 +15,7 @@ function initializePwaFeatures() {
 // Dynamically add the manifest link
 function addManifestLink() {
     const manifestLink = document.createElement('link');
-    manifestLink.rel = 'manifest';
+    manifestLink.rel = 'mainfest';
     manifestLink.href = '/manifest.json'; // Ensure manifest.json exists in the root
     document.head.appendChild(manifestLink);
     console.log('Manifest added:', manifestLink.href);
